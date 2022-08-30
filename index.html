@@ -34,6 +34,7 @@
       body {
         margin: 0;
         padding: 0;
+        list-style: none;
         font-family: "ShopifySans", Helvetica, Arial, sans-serif;
       }
     </style>
@@ -400,7 +401,7 @@
       <div class="md:flex bg-[#002e25] md:max-w-[1200px] md:m-auto">
         <div class="md:w-[50%] md:h-full">
           <img
-            class="md:h-[100vh] object-cover"
+            class="md:h-[100vh] md:w-[100%] object-cover"
             src="./assets/alicia-souza-testimonial@desktop-d947199e09069edaf78e332d87ba932b45805e3c91d032ba8a083a6f67ad04b5.jpg"
             alt="girl standing"
           />
@@ -432,55 +433,267 @@
     <!-- bg-dark-green ends -->
 
     <!-- Brand -->
-    <div class="flex justify-evenly items-center flex-wrap gap-6 px-4 py-6">
+    <div
+      class="flex justify-evenly items-center flex-wrap gap-12 px-4 py-6 md:max-w-[1200px] md:m-auto md:py-[2rem]"
+    >
       <div>
         <img
-          class="w-[150px] h-[50px]"
+          class="w-[110px] h-[40px]"
           src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/bajaao-large-90b80d8dca23c6010844c15073c5682e366e2a7cce83c3906023254ddc0f118f.png?quality=50"
         />
       </div>
 
       <div>
         <img
-          class="w-[150px] h-[50px]"
+          class="w-[110px] h-[40px]"
           src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/johnjacobs-large-64648953616375e0c0cdf42f66d2dac5d5d42c1fd73c36479bbfadde18215515.png?quality=50"
         />
       </div>
 
       <div>
         <img
-          class="w-[150px] h-[50px]"
+          class="w-[110px] h-[40px]"
           src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kylie-large-cc52236a0d0155a055cdcb79674ed7d09e34dad57775fdacfcf5fe35a54573fe.png?quality=50"
         />
       </div>
 
       <div>
         <img
-          class="w-[150px] h-[50px]"
+          class="w-[110px] h-[40px]"
           src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nush-large-700def69c5dedebecfbd66e65596eb777f090ed413fe4bade3f8547524c9b6c0.png?quality=50"
         />
       </div>
 
       <div>
         <img
-          class="w-[150px] h-[50px]"
+          class="w-[110px] h-[40px]"
           src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/yogabar-large-5e1859ae4c2493c4b21db6bd0029982f0ed35a632bdb24f9bacca6d553341986.png?quality=50"
         />
       </div>
 
       <div>
         <img
-          class="w-[150px] h-[50px]"
+          class="w-[110px] h-[40px]"
           src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/starstruck-large-f1878004d9a8b2965ddda61f9860c542fe63c6bbd4f9b9674894f4c34ecc05ae.png?quality=50"
         />
       </div>
 
       <div>
         <img
-          class="w-[150px] h-[50px]"
+          class="w-[110px] h-[40px]"
           src="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/mcaffeine-large-58ebe816c20a443da0ce4d32256d4b1e48ec46cae26cb7a2b0f595ea91fdd795.png?quality=50"
         />
       </div>
     </div>
+
+    <!-- help section -->
+    <div class="bg-[#fbf7ed] py-16 md:py-0 md:h-[100vh]">
+      <div class="md:flex md:items-center md:h-full">
+        <div
+          class="px-6 md:h-full md:flex md:flex-wrap md:items-center md:w-[50%] md:ml-[4rem]"
+        >
+          <h1
+            class="text-[1.8em] md:w-[75%] leading-[1.35] text-[#212326] md:px-6 md:mb-0 mb-8 md:text-[2.5em]"
+          >
+            Get the help you need, every step of the way
+          </h1>
+          <div class="md:w-[50%] md:p-4">
+            <h2 class="py-4 font-semibold md:text-[1.4em] md:font-[400]">
+              Shopify support
+            </h2>
+            <p class="text-gray-600 mb-2 md:text-[1.1em]">
+              Contact support 24/7, whether you’re troubleshooting issues or
+              looking for business advice.
+            </p>
+            <a class="py-3 block text-[#008060] font-bold"
+              >Contact support <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="md:w-[50%] md:p-4">
+            <h2 class="py-4 font-semibold md:text-[1.4em] md:font-[400]">
+              Shopify App Store
+            </h2>
+            <p class="text-gray-600 mb-2 md:text-[1.1em]">
+              Add features and functionality to your business with 6,000+ apps
+              that integrate directly with Shopify.
+            </p>
+            <a class="py-3 block text-[#008060] font-bold"
+              >Visit the Shopify App Store
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="md:w-[50%] md:p-4">
+            <h2 class="py-4 font-semibold md:text-[1.4em] md:font-[400]">
+              Shopify Experts Marketplace
+            </h2>
+            <p class="text-gray-600 mb-2 md:text-[1.1em]">
+              Hire a Shopify expert to help you with everything from store setup
+              to SEO.
+            </p>
+            <a class="py-3 block text-[#008060] font-bold mb-8"
+              >Explore the Shopify Experts Marketplace
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hidden md:block md:w-[50%] md:h-full md:object-cover">
+          <img
+            class="md:h-full"
+            src="./assets/help@desktop-2x-2929e8d420327b708cb9452bf940e92a426145bd07f88ad410db628513e571d4.webp"
+          />
+        </div>
+        <div class="md:w-[50%] md:h-full md:object-cover md:hidden">
+          <img
+            class="md:h-full w-[100%]"
+            src="./assets/mobile-2x-8dcf429030287e976fd72ee52924257cfe761f2b5d55f262df6adca7647ae004.webp"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="px-6 md:max-w-6xl md:m-auto">
+      <div>
+        <h1 class="text-[1.75em] text-center pt-10 pb-6">
+          Start your business journey with Shopify
+        </h1>
+        <p
+          class="text-[1.1em] mb-[1em] text-center text-gray-600 md:max-w-2xl md:m-auto md:pb-4"
+        >
+          Try Shopify for free, and explore all the tools and services you need
+          to start, run, and grow your business.
+        </p>
+        <button
+          class="w-[50%] block m-auto text-center md:w-[15%] md:justify-center md:flex border border-solid cursor-pointer border-[1px] border-[#008060] py-3 bg-[#008060] text-[#fff] text-[1em] font-bold rounded"
+        >
+          Start free trial
+        </button>
+        <a
+          class="block py-[2rem] text-center text-[#008060] font-bold my-8 md:text-end"
+          >Back to top <i class="fa-solid fa-arrow-up"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="bg-[#002e25] text-[#fff] px-4 py-4">
+      <div>
+        <div>
+          <ul
+            class="flex gap-4 text-[1em] px-[2rem] py-[1rem] flex-wrap justify-center font-bold md:justify-start md:max-w-[1140px] md:m-auto"
+          >
+            <li class="mr-1">About</li>
+            <li class="mr-1">Career</li>
+            <li class="mr-1">Press and Media</li>
+            <li class="mr-1">Shopify Plus</li>
+            <li class="mb-2">Sitemap</li>
+          </ul>
+        </div>
+
+        <div class="flex gap-6 justify-center md:justify-evenly">
+          <div class="md:flex md:gap-[3rem] md:justify-evenly">
+            <ul>
+              <h1 class="text-[.9em] uppercase font-bold py-3">Online Store</h1>
+              <li class="py-[.3rem] leading-[1.5] text-[#b6babf] text-[.8em]">
+                Sell online
+              </li>
+              <li class="py-[.3rem] leading-[1.5] text-[#b6babf] text-[.8em]">
+                Features
+              </li>
+              <li class="py-[.3rem] leading-[1.5] text-[#b6babf] text-[.8em]">
+                Examples
+              </li>
+              <li class="py-[.3rem] leading-[1.5] text-[#b6babf] text-[.8em]">
+                Website builder
+              </li>
+              <li class="py-[.3rem] leading-[1.5] text-[#b6babf] text-[.8em]">
+                Online retail
+              </li>
+            </ul>
+            <ul class="text-[#b6babf] text-[.8em] md:mt-[3rem]">
+              <li class="py-[.3rem] leading-[1.5]">Ecommerce website</li>
+              <li class="py-[.3rem] leading-[1.5]">Domain names</li>
+              <li class="py-[.3rem] leading-[1.5]">Themes</li>
+              <li class="py-[.3rem] leading-[1.5]">Shopping cart</li>
+              <li class="py-[.3rem] leading-[1.5]">Ecommerce hosting</li>
+            </ul>
+            <ul class="text-[#b6babf] text-[.8em] md:mt-[3rem]">
+              <li class="py-[.3rem] leading-[1.5]">Mobile commerce</li>
+              <li class="py-[.3rem] leading-[1.5]">Ecommerce software</li>
+              <li class="py-[.3rem] leading-[1.5]">Online store builder</li>
+              <li class="py-[.3rem] leading-[1.5]">Dropshipping Business</li>
+              <li class="py-[.3rem] leading-[1.5]">Store themes</li>
+            </ul>
+          </div>
+          <div class="md:flex gap-[3rem] md:justify-evenly">
+            <div>
+              <h1 class="text-[.9em] uppercase font-bold py-3">
+                Point of sale
+              </h1>
+              <ul class="text-[#b6babf] text-[.8em]">
+                <li class="py-[.3rem] leading-[1.5]">Point of sale</li>
+                <li class="py-[.3rem] leading-[1.5]">Features</li>
+              </ul>
+            </div>
+
+            <div>
+              <h1 class="text-[.9em] uppercase font-bold py-3">Support</h1>
+              <ul class="text-[#b6babf] text-[.8em]">
+                <li class="py-[.3rem] leading-[1.5]">24/7 support</li>
+                <li class="py-[.3rem] leading-[1.5]">Shopify Help Center</li>
+                <li class="py-[.3rem] leading-[1.5]">Shopify Community</li>
+                <li class="py-[.3rem] leading-[1.5]">API documentation</li>
+                <li class="py-[.3rem] leading-[1.5]">Free tools</li>
+                <li class="py-[.3rem] leading-[1.5]">Free stock photos</li>
+                <li class="py-[.3rem] leading-[1.5]">Websites for sale</li>
+                <li class="py-[.3rem] leading-[1.5]">Logo Maker</li>
+                <li class="py-[.3rem] leading-[1.5]">
+                  Business name generator
+                </li>
+                <li class="py-[.3rem] leading-[1.5]">Research</li>
+                <li class="py-[.3rem] leading-[1.5]">Legal</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 class="text-[.9em] uppercase font-bold py-3">SHOPIFY</h2>
+              <ul class="text-[#b6babf] text-[.8em]">
+                <li class="py-[.3rem] leading-[1.5]">Contact</li>
+                <li class="py-[.3rem] leading-[1.5]">Partner program</li>
+                <li class="py-[.3rem] leading-[1.5]">Affiliate program</li>
+                <li class="py-[.3rem] leading-[1.5]">App developers</li>
+                <li class="py-[.3rem] leading-[1.5]">Investors</li>
+                <li class="py-[.3rem] leading-[1.5]">Blog topics</li>
+                <li class="py-[.3rem] leading-[1.5]">Community Events</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="social-icons md:flex md:items-center md:justify-between md:max-w-[1024px] md:m-auto"
+        >
+          <div class="flex justify-evenly py-8 text-[1.2rem] md:gap-8">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+
+          <div class="flex justify-evenly my-4 md:gap-4">
+            <p class="text-[#b6babf] text-[1em]">Terms and condition</p>
+            <p class="text-[#b6babf] text-[1em]">Privacy policy</p>
+            <a>
+              <i class="fa-solid fa-globe"></i> India
+              <i class="fa-solid fa-caret-down"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
